@@ -9,14 +9,28 @@ body{
         overflow-x: hidden;*/
     }
 
+    .Grid
+    {
+        width: fit-content;
+        display:grid;
+        grid-template-columns: auto auto auto;
+       margin-left: 450px;
+        margin-top: -180px;
+    gap: 20px;
+    padding: 10px;
+        /*padding: 10px;
+        column-gap: -50px;
+            row-gap: 3px;
+                
+            */
+    }
+
 .red_shape{
 background-color: red;
 width: 200px;
 height: 200px;
 border-radius: 50%;
-position: relative;
-top:-60px;
-left: 250px;
+
 
 }
 
@@ -25,9 +39,7 @@ left: 250px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: relative;
-left: 250px;
-top: -45px
+
     }
 
     .blue_shape{
@@ -35,9 +47,7 @@ top: -45px
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        position: relative;
-left: 470px;
-top: -460px;
+
 
     }
 
@@ -46,9 +56,6 @@ top: -460px;
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        position: relative;
-        left: 470px;
-        top: -443px;
     }
 
     .orange_shape{
@@ -56,9 +63,7 @@ top: -460px;
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        position: relative;
-        left: 690px;
-        top: -838px;
+
     }
 
     .purple_shape{
@@ -66,9 +71,7 @@ top: -460px;
         width: 200px;
         height: 200px;
         border-radius: 50%;
-        position: relative;
-        left: 690px;
-        top: -855px;
+
     }
 
 .button1{
@@ -84,15 +87,31 @@ top: -460px;
     width: 150px;
     height: 50px;
     border-radius: 10%;
-    position: relative;
-    left: 50px;
-    top: -1080px;
+    margin-top: -120px;
+    margin-left: 50px;
 }
 .button3{
     width: 150px;
     height: 50px;
     border-radius: 10%;
-    position: relative;
-    left: -100px;
-    top: -1010px;
 }
+
+.button4{
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+
+
+/*
+@media screen and (min-width: 1200px) and (max-width: 1600px) 
+{
+html,body
+ {
+    background-color: navy;
+    width:100%;
+    height:100%;
+ }
+}*/

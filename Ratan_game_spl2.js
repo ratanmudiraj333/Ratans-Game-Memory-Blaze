@@ -4,6 +4,7 @@
 
 var randomnumber = 1;
 $(".button4").hide();
+$(".button2").hide();
 document.querySelector("h2").innerHTML = "Game Level " + randomnumber;
 $(".button3").hide();
 //document.querySelector(".Level").innerHTML = "Level 1"
@@ -125,6 +126,7 @@ $(".button1").on("click", function () {
     memory(".red_shape", ".blue_shape", ".green_shape", ".yellow_shape", ".purple_shape", ".orange_shape");
     $(".button1").off();
     $(".button1").hide();
+    $(".button2").show();
     $(".button4").hide();
 
     click1 = [];
@@ -152,6 +154,7 @@ $(".button1").on("click", function () {
                 //document.querySelector("h2").innerHTML = "Game Level " + randomnumber;
                 $(".button3").hide();
                 $(".button2").off();
+                $(".button2").hide();
                 $(".button1").show();
 
                 $(".button1").on("click", function () {
@@ -160,7 +163,7 @@ $(".button1").on("click", function () {
                     memory(".green_shape", ".blue_shape", ".red_shape", ".yellow_shape", ".orange_shape", ".purple_shape");
                     $(".button1").off();
                     $(".button1").hide();
-
+                    $(".button2").show();
 
                     sound2 = new Audio("Ratan_game_sound.mp3");
                     sound2_err = new Audio("Ratan_game_sound1.mp3");
@@ -185,6 +188,7 @@ $(".button1").on("click", function () {
 
                                 $(".button3").hide();
                                 $(".button2").off();
+                                $(".button2").hide();
                                 $(".button1").show();
 
                                 $(".button1").on("click", function () {
@@ -193,7 +197,7 @@ $(".button1").on("click", function () {
                                     memory(".blue_shape", ".yellow_shape", ".green_shape", ".red_shape", ".purple_shape", ".orange_shape");
                                     $(".button1").off();
                                     $(".button1").hide();
-
+                                    $(".button2").show();
 
                                     sound2 = new Audio("Ratan_game_sound.mp3");
                                     sound2_err = new Audio("Ratan_game_sound1.mp3");
@@ -218,6 +222,7 @@ $(".button1").on("click", function () {
 
                                                 $(".button3").hide();
                                                 $(".button2").off();
+                                                $(".button2").hide();
                                                 $(".button1").show();
 
                                                 $(".button1").on("click", function () {
@@ -226,7 +231,7 @@ $(".button1").on("click", function () {
                                                     memory(".yellow_shape", ".blue_shape", ".red_shape", ".green_shape", ".orange_shape", ".purple_shape");
                                                     $(".button1").off();
                                                     $(".button1").hide();
-
+                                                    $(".button2").show();
 
                                                     sound2 = new Audio("Ratan_game_sound.mp3");
                                                     sound2_err = new Audio("Ratan_game_sound1.mp3");
@@ -383,7 +388,7 @@ game();
 
 $(".button4").on("click", function () {
     var randomnumber = 1;
-    $(".button2").show();
+    $(".button2").hide();
     $(".button1").show();
     $(".button4").hide();
 document.querySelector("h2").innerHTML = "Game Level " + randomnumber;

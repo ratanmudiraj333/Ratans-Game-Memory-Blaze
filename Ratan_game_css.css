@@ -14,7 +14,7 @@ body{
         width: fit-content;
         display:grid;
         grid-template-columns: auto auto auto;
-       margin-left: 450px;
+       margin-left: 470px;
         margin-top: -180px;
     gap: 20px;
     padding: 10px;
@@ -80,28 +80,33 @@ border-radius: 50%;
     border-radius: 10%;
     position: relative;
     left: 50px;
-    top: 100px;
+    top: -200px;
 }
 
 .button2{
     width: 150px;
     height: 50px;
     border-radius: 10%;
-    margin-top: -120px;
-    margin-left: 50px;
+    position: relative;
+    left: 50px;
+    top: -200px;
 }
 .button3{
     width: 150px;
     height: 50px;
     border-radius: 10%;
+    position: relative;
+    left: -100px;
+    top: -100px;
 }
 
 .button4{
     width: 150px;
     height: 50px;
     border-radius: 10%;
-    margin-top: -120px;
-    margin-left: 50px;
+    position: relative;
+    left: 50px;
+    top: -200px;
 }
 
 

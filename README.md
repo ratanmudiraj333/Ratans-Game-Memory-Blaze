@@ -1,5 +1,5 @@
 # Ratans-Game-Memory-Blaze
-A game developed using HTML, CSS & JavaScript (Library: jQuery). Consisting 4 levels & each level consists of 6 different coloured circles. To start the game, we must click on the start option and the coloured circles start showing a pattern, we must follow the same pattern by clicking the coloured circles. If the pattern we selected is correct then we can go to the next level else we can check the pattern again and play the level again. If all levels are cleared, we can restart the game again.
+A game developed using HTML, CSS & JavaScript (Library: jQuery). Consisting 4 levels & each level consists of 6 different coloured circles. To start the game, we must click on the start option and the coloured circles start showing a pattern(Coloured circles will blink), we must follow the same pattern by clicking the coloured circles. If the pattern we selected is correct then we can go to the next level else we can check the pattern again and play the level again. If all levels are cleared, we can restart the game again.
 
 Screen shots
 
